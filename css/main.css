@@ -1,0 +1,303 @@
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+  margin: unset;
+  padding: unset;
+}
+
+#gradient {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.nav {
+  width: 100%;
+  border-bottom: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.nav_mobile {
+  height: 65px;
+  width: 65px;
+  border-radius: 15px;
+  margin: 1em;
+  border: 1px solid white;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+.container .hero {
+  position: relative;
+  height: 100%;
+}
+
+.container .hero_main {
+  font-family: "Gilroy-Extrabold";
+  color: white;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.container .hero_main-para {
+  font-family: "Work Sans";
+  font-weight: 100;
+}
+
+.container .hero_main-button {
+  background-color: unset;
+  border: 1px solid white;
+  padding: 1em;
+  color: white;
+  border-radius: 15px;
+  height: 50px;
+  width: 50px;
+  margin-top: 1.5em;
+}
+
+.container .work_box {
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 1.5em;
+  width: 100%;
+  height: 450px;
+  color: white;
+  position: relative;
+}
+
+.container .work_box-text {
+  position: absolute;
+  padding: 2em;
+  bottom: 0;
+}
+
+.container .work_box-text-header {
+  font-size: 2em;
+  letter-spacing: 1px;
+  font-family: "Gilroy-Extrabold";
+}
+
+.container .work_box-text-sub {
+  font-family: "Work Sans";
+  font-size: 1.2em;
+}
+
+.container .work_box-text-para {
+  font-family: "Work Sans";
+  font-weight: 100;
+}
+
+.container .work_box-text-button {
+  padding: .75em;
+  color: white;
+  background-color: unset;
+  border: 1px solid white;
+  border-radius: 2px 10px 2px 10px;
+  margin-top: 2em;
+}
+
+.container .quote {
+  padding: 4em 0;
+  width: 90%;
+  margin: auto;
+}
+
+.container .quote h1 {
+  font-family: "Work Sans";
+  font-weight: 100;
+  color: white;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+}
+
+.container .footer {
+  background-color: black;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.container .footer_main {
+  padding: 2em;
+  color: white;
+}
+
+.container .footer_main-header {
+  font-family: "Gilroy-Extrabold";
+  font-size: 1.1em;
+}
+
+.container .footer_main-para {
+  font-family: "Work Sans";
+  font-weight: 100;
+  color: #ccc;
+  margin-top: 1em;
+  line-height: 1.4em;
+}
+
+.container .footer_main .copyright {
+  font-family: "Work Sans";
+  font-weight: 100;
+  color: #333;
+  margin-top: 1.5em;
+  font-size: .9em;
+}
+
+.healco .work_box {
+  height: auto;
+}
+
+.healco .work_box-text {
+  position: unset;
+}
+
+.healco .work_box-text-sub {
+  margin-top: .5em;
+}
+
+.healco .work_box-text-para {
+  color: #ccc;
+  margin-top: .75em;
+}
+
+.healco .work_box-images {
+  padding: 2em;
+  padding-top: unset;
+}
+
+.healco .work_box-images-temp {
+  width: 100%;
+  padding-top: 100%;
+  background-color: white;
+  border-radius: 15px;
+  margin: 1em 0;
+}
+
+.healco .page {
+  margin-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 15px;
+}
+
+.healco .page_btn {
+  font-size: .9em;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.healco .page_btn-inner {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Work Sans";
+  font-weight: 100;
+}
+
+.healco .page_twobtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.healco .page_home {
+  margin-right: .25em;
+}
+
+.healco .page_next {
+  margin-left: .25em;
+}
+
+.healco .page_top {
+  width: 100%;
+  margin-bottom: .25em;
+  position: relative;
+}
+
+.healco .page_top-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Work Sans";
+  font-weight: 100;
+}
+
+.divider {
+  background-color: white;
+  height: 1px;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+.outline {
+  -webkit-text-stroke: 1px white;
+  color: rgba(255, 255, 255, 0.005);
+}
+
+#gradient {
+  background: linear-gradient(127deg, #d58c8c, #f7cab9, #f7cab9, #d58c8c);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 40s ease infinite;
+  animation: AnimationName 40s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 4% 0%;
+  }
+  50% {
+    background-position: 97% 100%;
+  }
+  100% {
+    background-position: 4% 0%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 4% 0%;
+  }
+  50% {
+    background-position: 97% 100%;
+  }
+  100% {
+    background-position: 4% 0%;
+  }
+}
+
+@font-face {
+  font-family: "Gilroy-Extrabold";
+  src: url("../fonts/Gilroy-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+/*# sourceMappingURL=main.css.map */
